@@ -5,20 +5,25 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    color: white;
 }
 
+.headerimg {
+    background-image: url("images/marcus.jpg");
+    background-attachment: fixed;
+}
 
 .headertop { 
     display: flex;
     padding: 16px;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    box-shadow: 0 30px 40px rgba(0,0,0,.3);
 }
 
 .headerlinks {
     display:flex;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -27,6 +32,67 @@ body {
     color: white;
     font-size: 24px;
     font-weight: bolder;
+}
+
+.contentcontainer {
+    display: flex;
+    flex-shrink: 0;
+    padding: 275px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contentheader {
+    display: flex;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.contentsubtext {
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.contenttext { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.hover-underline-animation:after {
+    content:'';
+    position:absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height:2px;
+    bottom:0;
+    left:0;
+    background-color: white;
+    transform-origin:bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+button { 
+    border: 1px solid #3C579E;
+    border-radius: 4px;;
+    padding: 8px 24px;
+    font-weight: 900;
+    background-color: #3C579E;
+    color: white;
 }
 
 ul { 
