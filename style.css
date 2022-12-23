@@ -256,6 +256,15 @@ button:hover {
     background-color: #fff;
 }
 
+.footer { 
+    display:flex;
+    background-color: grey;
+}
+
+.footertext {
+    display:flex;
+}
+
 ul { 
     display:flex;
     list-style: none;
