@@ -10,7 +10,6 @@ body {
 
 .headerimg {
     background-image: url("images/marcus.jpg");
-    background-attachment: fixed;
 }
 
 .headertop { 
@@ -117,6 +116,44 @@ body {
     margin: 16px;
     height: 360px;
     padding:0;
+}
+
+.boxheader {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 900;
+    font-size: 36px;
+    width: 100%;
+    margin:32px;
+}
+
+.boxcontainer {
+    display:flex;
+    background: black;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background:linear-gradient(to bottom,#232526,black);
+}
+
+.boxcontent {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 64px;
+}
+
+.box {
+    width: 200px;
+    height: 280px;
+    margin: 16px;
+    border: 3px solid grey;
+    border-radius:8px;
+}
+
+.text {
+    font-weight: 900;
 }
 
 
