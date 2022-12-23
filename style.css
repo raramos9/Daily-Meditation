@@ -200,6 +200,43 @@ body {
     text-shadow: 1px 1px 2px black;
 }
 
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom,#232526,black);
+}
+
+.modalcontent { 
+    display:flex;
+    margin: 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px;
+    border: 1px solid white;
+    border-radius:10px;
+}
+
+.modalheader { 
+    font-size: 18px;
+    font-weight:bolder;
+}
+
+.modaltext { 
+    font-size: 12px;
+}
+
+.modalinfo {
+    display:flex;
+    flex-direction: column;
+}
+
+.signupcontainer { 
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+    padding-left: 32px;
+}
 
 button {
     transition: all .5s ease;
