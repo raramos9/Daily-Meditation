@@ -134,7 +134,8 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background:linear-gradient(to bottom,#232526,black);
-    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.5);
+    box-shadow: 0  8px 8px -8px rgba(0,0,0,1), 
+                0 -8px 8px -8px rgba(0,0,0,1);
 }
 
 .boxcontent {
@@ -205,6 +206,8 @@ body {
     justify-content: center;
     align-items: center;
     background:linear-gradient(to bottom,#232526,black);
+    box-shadow: 0  8px 8px -8px rgba(0,0,0,.75), 
+                0 -8px 8px -8px rgba(0,0,0,.75);
 }
 
 .modalcontent { 
@@ -259,10 +262,15 @@ button:hover {
 .footer { 
     display:flex;
     background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
 
 .footertext {
     display:flex;
+    padding: 12px;
+    margin: 4px;
+    text-decoration: underline;
 }
 
 ul { 
