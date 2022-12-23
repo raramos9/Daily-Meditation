@@ -166,15 +166,22 @@ body {
 
 .quotecontainer {
     display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: grey;
 }
 
 .quotetext{
     display:flex;
+    font-weight:900;
+    font-size: 48px;
 }
 
 .quoteperson{
     display:flex;
+    align-self: flex-end;
+    margin-right: 64px;
 }
 
 
