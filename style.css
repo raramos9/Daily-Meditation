@@ -164,6 +164,19 @@ body {
     font-weight: 900;
 }
 
+.quotecontainer {
+    display:flex;
+    background-color: grey;
+}
+
+.quotetext{
+    display:flex;
+}
+
+.quoteperson{
+    display:flex;
+}
+
 
 button {
     transition: all .5s ease;
