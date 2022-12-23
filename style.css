@@ -17,6 +17,8 @@ body {
 
 .headerimg {
     background-image: url("images/marcus.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .headertop { 
@@ -181,7 +183,7 @@ body {
     background-image: url('images/marcus4.jpg');
     background-position: top;
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size:cover;
 }
 
 .quotebox {
