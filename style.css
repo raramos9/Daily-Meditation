@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&family=Poppins&display=swap');
 
+html {
+    overflow:hidden;
+    height: 100%;
+}
+
 body { 
     font-family: 'Poppins', sans-serif; ; 
     display: flex;
     flex-direction: column;
     margin: 0;
-    color: white;
+    color:white;
+    overflow:auto;
+    height: 100%;
 }
 
 .headerimg {
